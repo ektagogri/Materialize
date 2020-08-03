@@ -1,0 +1,6 @@
+framework module Pods_FinalProjectGogriEkta_FinalProjectGogriEktaUITests {
+  umbrella header "Pods-FinalProjectGogriEkta-FinalProjectGogriEktaUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,32 @@
+{
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "resources" : [
+    {
+      "filename" : "blue.arreferenceimage"
+    },
+    {
+      "filename" : "brown.arreferenceimage"
+    },
+    {
+      "filename" : "green.arreferenceimage"
+    },
+    {
+      "filename" : "indigo.arreferenceimage"
+    },
+    {
+      "filename" : "orange.arreferenceimage"
+    },
+    {
+      "filename" : "pink.arreferenceimage"
+    },
+    {
+      "filename" : "red.arreferenceimage"
+    },
+    {
+      "filename" : "yellow.arreferenceimage"
+    }
+  ]
+}

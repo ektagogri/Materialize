@@ -1,0 +1,881 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		118CD16FDEB0AD4EDC73B909 /* Pods_FinalProjectGogriEkta_FinalProjectGogriEktaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 865BDFDA43EC6BB983C96053 /* Pods_FinalProjectGogriEkta_FinalProjectGogriEktaUITests.framework */; };
+		1AA65490C7266A9BAF87F674 /* Pods_FinalProjectGogriEkta.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E15E37E25D6084E3E49DD225 /* Pods_FinalProjectGogriEkta.framework */; };
+		5393AE43F7D83B2476F28400 /* Pods_FinalProjectGogriEktaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ED984DE4C30B87AC841DC2C /* Pods_FinalProjectGogriEktaTests.framework */; };
+		741902382462AF5600E531FF /* SocialScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741902372462AF5600E531FF /* SocialScanViewController.swift */; };
+		74465DFA24627D0F00DED420 /* DoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74465DF924627D0F00DED420 /* DoneViewController.swift */; };
+		74583AA72462A11500B2AB67 /* SocialCardAR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74583AA62462A11500B2AB67 /* SocialCardAR.swift */; };
+		74583AA92462A92F00B2AB67 /* BusinessScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74583AA82462A92F00B2AB67 /* BusinessScanViewController.swift */; };
+		7463F197245FEC74008662F5 /* WebsiteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7463F196245FEC74008662F5 /* WebsiteViewController.swift */; };
+		7463F19A245FEF79008662F5 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7463F199245FEF79008662F5 /* WebKit.framework */; };
+		746E7ABA2463900A00372CA6 /* SavedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746E7AB92463900A00372CA6 /* SavedTableViewController.swift */; };
+		74846AA4245D40F800F3B53B /* SocialCardsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74846AA3245D40F800F3B53B /* SocialCardsModel.swift */; };
+		74846AA6245D486500F3B53B /* BusinessCardsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74846AA5245D486500F3B53B /* BusinessCardsModel.swift */; };
+		74846AA8245D58B600F3B53B /* CreateSocialCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74846AA7245D58B600F3B53B /* CreateSocialCardViewController.swift */; };
+		74846AAA245D5A5800F3B53B /* CreateBusinessCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74846AA9245D5A5800F3B53B /* CreateBusinessCardViewController.swift */; };
+		748A675C245D7303007BE984 /* SaveSocialCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748A675B245D7303007BE984 /* SaveSocialCardViewController.swift */; };
+		74AD7F5C245D05FF00B856F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AD7F5B245D05FF00B856F1 /* AppDelegate.swift */; };
+		74AD7F5E245D05FF00B856F1 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 74AD7F5D245D05FF00B856F1 /* art.scnassets */; };
+		74AD7F60245D05FF00B856F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AD7F5F245D05FF00B856F1 /* ViewController.swift */; };
+		74AD7F63245D05FF00B856F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74AD7F61245D05FF00B856F1 /* Main.storyboard */; };
+		74AD7F65245D060100B856F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74AD7F64245D060100B856F1 /* Assets.xcassets */; };
+		74AD7F68245D060100B856F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74AD7F66245D060100B856F1 /* LaunchScreen.storyboard */; };
+		74AD7F73245D060100B856F1 /* FinalProjectGogriEktaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AD7F72245D060100B856F1 /* FinalProjectGogriEktaTests.swift */; };
+		74AD7F7E245D060100B856F1 /* FinalProjectGogriEktaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AD7F7D245D060100B856F1 /* FinalProjectGogriEktaUITests.swift */; };
+		74AD7F8F245D085200B856F1 /* CardGeneratorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AD7F8E245D085200B856F1 /* CardGeneratorViewController.swift */; };
+		74AD7F93245D0B2200B856F1 /* SocialCardInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AD7F92245D0B2200B856F1 /* SocialCardInfo.swift */; };
+		74AD7F95245D16D500B856F1 /* BusinessCardInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AD7F94245D16D500B856F1 /* BusinessCardInfo.swift */; };
+		74C9D2BD245F3CFD004CCB4C /* BusinessCardAR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C9D2BC245F3CFD004CCB4C /* BusinessCardAR.swift */; };
+		74D7AA51245D8C510065B61D /* SaveBusinessCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D7AA50245D8C510065B61D /* SaveBusinessCardViewController.swift */; };
+		74F624E7246344D900F44975 /* twilioService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F624E6246344D900F44975 /* twilioService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		74AD7F6F245D060100B856F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74AD7F50245D05FF00B856F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74AD7F57245D05FF00B856F1;
+			remoteInfo = FinalProjectGogriEkta;
+		};
+		74AD7F7A245D060100B856F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74AD7F50245D05FF00B856F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74AD7F57245D05FF00B856F1;
+			remoteInfo = FinalProjectGogriEkta;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DF49C4C05313088499AA650 /* Pods-FinalProjectGogriEkta-FinalProjectGogriEktaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinalProjectGogriEkta-FinalProjectGogriEktaUITests.debug.xcconfig"; path = "Target Support Files/Pods-FinalProjectGogriEkta-FinalProjectGogriEktaUITests/Pods-FinalProjectGogriEkta-FinalProjectGogriEktaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		23C7693D10ED0898C4B845FB /* Pods-FinalProjectGogriEkta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinalProjectGogriEkta.debug.xcconfig"; path = "Target Support Files/Pods-FinalProjectGogriEkta/Pods-FinalProjectGogriEkta.debug.xcconfig"; sourceTree = "<group>"; };
+		61F6CA94BF87588D45F55F13 /* Pods-FinalProjectGogriEktaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinalProjectGogriEktaTests.release.xcconfig"; path = "Target Support Files/Pods-FinalProjectGogriEktaTests/Pods-FinalProjectGogriEktaTests.release.xcconfig"; sourceTree = "<group>"; };
+		741902372462AF5600E531FF /* SocialScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialScanViewController.swift; sourceTree = "<group>"; };
+		74465DF924627D0F00DED420 /* DoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoneViewController.swift; sourceTree = "<group>"; };
+		74583AA62462A11500B2AB67 /* SocialCardAR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialCardAR.swift; sourceTree = "<group>"; };
+		74583AA82462A92F00B2AB67 /* BusinessScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessScanViewController.swift; sourceTree = "<group>"; };
+		7463F196245FEC74008662F5 /* WebsiteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebsiteViewController.swift; sourceTree = "<group>"; };
+		7463F199245FEF79008662F5 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		746E7AB92463900A00372CA6 /* SavedTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedTableViewController.swift; sourceTree = "<group>"; };
+		74846AA3245D40F800F3B53B /* SocialCardsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialCardsModel.swift; sourceTree = "<group>"; };
+		74846AA5245D486500F3B53B /* BusinessCardsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessCardsModel.swift; sourceTree = "<group>"; };
+		74846AA7245D58B600F3B53B /* CreateSocialCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateSocialCardViewController.swift; sourceTree = "<group>"; };
+		74846AA9245D5A5800F3B53B /* CreateBusinessCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateBusinessCardViewController.swift; sourceTree = "<group>"; };
+		748A675B245D7303007BE984 /* SaveSocialCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveSocialCardViewController.swift; sourceTree = "<group>"; };
+		74AD7F58245D05FF00B856F1 /* materealize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = materealize.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		74AD7F5B245D05FF00B856F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		74AD7F5D245D05FF00B856F1 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		74AD7F5F245D05FF00B856F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		74AD7F62245D05FF00B856F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		74AD7F64245D060100B856F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		74AD7F67245D060100B856F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		74AD7F69245D060100B856F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74AD7F6E245D060100B856F1 /* FinalProjectGogriEktaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinalProjectGogriEktaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		74AD7F72245D060100B856F1 /* FinalProjectGogriEktaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalProjectGogriEktaTests.swift; sourceTree = "<group>"; };
+		74AD7F74245D060100B856F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74AD7F79245D060100B856F1 /* FinalProjectGogriEktaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinalProjectGogriEktaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		74AD7F7D245D060100B856F1 /* FinalProjectGogriEktaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalProjectGogriEktaUITests.swift; sourceTree = "<group>"; };
+		74AD7F7F245D060100B856F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74AD7F8E245D085200B856F1 /* CardGeneratorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardGeneratorViewController.swift; sourceTree = "<group>"; };
+		74AD7F92245D0B2200B856F1 /* SocialCardInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialCardInfo.swift; sourceTree = "<group>"; };
+		74AD7F94245D16D500B856F1 /* BusinessCardInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessCardInfo.swift; sourceTree = "<group>"; };
+		74C9D2BC245F3CFD004CCB4C /* BusinessCardAR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessCardAR.swift; sourceTree = "<group>"; };
+		74D7AA50245D8C510065B61D /* SaveBusinessCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveBusinessCardViewController.swift; sourceTree = "<group>"; };
+		74F624E6246344D900F44975 /* twilioService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = twilioService.swift; sourceTree = "<group>"; };
+		865BDFDA43EC6BB983C96053 /* Pods_FinalProjectGogriEkta_FinalProjectGogriEktaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FinalProjectGogriEkta_FinalProjectGogriEktaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9ED984DE4C30B87AC841DC2C /* Pods_FinalProjectGogriEktaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FinalProjectGogriEktaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E15E37E25D6084E3E49DD225 /* Pods_FinalProjectGogriEkta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FinalProjectGogriEkta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3F5C8817866212842EABBC3 /* Pods-FinalProjectGogriEkta.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinalProjectGogriEkta.release.xcconfig"; path = "Target Support Files/Pods-FinalProjectGogriEkta/Pods-FinalProjectGogriEkta.release.xcconfig"; sourceTree = "<group>"; };
+		EA42D2402495B65DBD5B7385 /* Pods-FinalProjectGogriEkta-FinalProjectGogriEktaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinalProjectGogriEkta-FinalProjectGogriEktaUITests.release.xcconfig"; path = "Target Support Files/Pods-FinalProjectGogriEkta-FinalProjectGogriEktaUITests/Pods-FinalProjectGogriEkta-FinalProjectGogriEktaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EC7A28DDEFAFEC89D2AC52D8 /* Pods-FinalProjectGogriEktaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinalProjectGogriEktaTests.debug.xcconfig"; path = "Target Support Files/Pods-FinalProjectGogriEktaTests/Pods-FinalProjectGogriEktaTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74AD7F55245D05FF00B856F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7463F19A245FEF79008662F5 /* WebKit.framework in Frameworks */,
+				1AA65490C7266A9BAF87F674 /* Pods_FinalProjectGogriEkta.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74AD7F6B245D060100B856F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5393AE43F7D83B2476F28400 /* Pods_FinalProjectGogriEktaTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74AD7F76245D060100B856F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				118CD16FDEB0AD4EDC73B909 /* Pods_FinalProjectGogriEkta_FinalProjectGogriEktaUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D76E72EB694DF7BCB431200 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				23C7693D10ED0898C4B845FB /* Pods-FinalProjectGogriEkta.debug.xcconfig */,
+				E3F5C8817866212842EABBC3 /* Pods-FinalProjectGogriEkta.release.xcconfig */,
+				0DF49C4C05313088499AA650 /* Pods-FinalProjectGogriEkta-FinalProjectGogriEktaUITests.debug.xcconfig */,
+				EA42D2402495B65DBD5B7385 /* Pods-FinalProjectGogriEkta-FinalProjectGogriEktaUITests.release.xcconfig */,
+				EC7A28DDEFAFEC89D2AC52D8 /* Pods-FinalProjectGogriEktaTests.debug.xcconfig */,
+				61F6CA94BF87588D45F55F13 /* Pods-FinalProjectGogriEktaTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7463F198245FEF79008662F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7463F199245FEF79008662F5 /* WebKit.framework */,
+				E15E37E25D6084E3E49DD225 /* Pods_FinalProjectGogriEkta.framework */,
+				865BDFDA43EC6BB983C96053 /* Pods_FinalProjectGogriEkta_FinalProjectGogriEktaUITests.framework */,
+				9ED984DE4C30B87AC841DC2C /* Pods_FinalProjectGogriEktaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		74AD7F4F245D05FF00B856F1 = {
+			isa = PBXGroup;
+			children = (
+				74AD7F5A245D05FF00B856F1 /* FinalProjectGogriEkta */,
+				74AD7F71245D060100B856F1 /* FinalProjectGogriEktaTests */,
+				74AD7F7C245D060100B856F1 /* FinalProjectGogriEktaUITests */,
+				74AD7F59245D05FF00B856F1 /* Products */,
+				7463F198245FEF79008662F5 /* Frameworks */,
+				0D76E72EB694DF7BCB431200 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		74AD7F59245D05FF00B856F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74AD7F58245D05FF00B856F1 /* materealize.app */,
+				74AD7F6E245D060100B856F1 /* FinalProjectGogriEktaTests.xctest */,
+				74AD7F79245D060100B856F1 /* FinalProjectGogriEktaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74AD7F5A245D05FF00B856F1 /* FinalProjectGogriEkta */ = {
+			isa = PBXGroup;
+			children = (
+				74AD7F8D245D081000B856F1 /* Model */,
+				74AD7F8C245D080700B856F1 /* View */,
+				74AD7F8B245D07FE00B856F1 /* Controller */,
+				74AD7F5B245D05FF00B856F1 /* AppDelegate.swift */,
+				74AD7F5D245D05FF00B856F1 /* art.scnassets */,
+				74AD7F64245D060100B856F1 /* Assets.xcassets */,
+				74AD7F69245D060100B856F1 /* Info.plist */,
+			);
+			path = FinalProjectGogriEkta;
+			sourceTree = "<group>";
+		};
+		74AD7F71245D060100B856F1 /* FinalProjectGogriEktaTests */ = {
+			isa = PBXGroup;
+			children = (
+				74AD7F72245D060100B856F1 /* FinalProjectGogriEktaTests.swift */,
+				74AD7F74245D060100B856F1 /* Info.plist */,
+			);
+			path = FinalProjectGogriEktaTests;
+			sourceTree = "<group>";
+		};
+		74AD7F7C245D060100B856F1 /* FinalProjectGogriEktaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				74AD7F7D245D060100B856F1 /* FinalProjectGogriEktaUITests.swift */,
+				74AD7F7F245D060100B856F1 /* Info.plist */,
+			);
+			path = FinalProjectGogriEktaUITests;
+			sourceTree = "<group>";
+		};
+		74AD7F8B245D07FE00B856F1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				74AD7F8E245D085200B856F1 /* CardGeneratorViewController.swift */,
+				74846AA7245D58B600F3B53B /* CreateSocialCardViewController.swift */,
+				748A675B245D7303007BE984 /* SaveSocialCardViewController.swift */,
+				74846AA9245D5A5800F3B53B /* CreateBusinessCardViewController.swift */,
+				74D7AA50245D8C510065B61D /* SaveBusinessCardViewController.swift */,
+				74465DF924627D0F00DED420 /* DoneViewController.swift */,
+				74AD7F5F245D05FF00B856F1 /* ViewController.swift */,
+				74583AA82462A92F00B2AB67 /* BusinessScanViewController.swift */,
+				741902372462AF5600E531FF /* SocialScanViewController.swift */,
+				7463F196245FEC74008662F5 /* WebsiteViewController.swift */,
+				746E7AB92463900A00372CA6 /* SavedTableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		74AD7F8C245D080700B856F1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				74AD7F61245D05FF00B856F1 /* Main.storyboard */,
+				74AD7F66245D060100B856F1 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		74AD7F8D245D081000B856F1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				74AD7F92245D0B2200B856F1 /* SocialCardInfo.swift */,
+				74846AA3245D40F800F3B53B /* SocialCardsModel.swift */,
+				74583AA62462A11500B2AB67 /* SocialCardAR.swift */,
+				74AD7F94245D16D500B856F1 /* BusinessCardInfo.swift */,
+				74846AA5245D486500F3B53B /* BusinessCardsModel.swift */,
+				74C9D2BC245F3CFD004CCB4C /* BusinessCardAR.swift */,
+				74F624E6246344D900F44975 /* twilioService.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74AD7F57245D05FF00B856F1 /* FinalProjectGogriEkta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74AD7F82245D060100B856F1 /* Build configuration list for PBXNativeTarget "FinalProjectGogriEkta" */;
+			buildPhases = (
+				E4D160683205227979BC4D16 /* [CP] Check Pods Manifest.lock */,
+				74AD7F54245D05FF00B856F1 /* Sources */,
+				74AD7F55245D05FF00B856F1 /* Frameworks */,
+				74AD7F56245D05FF00B856F1 /* Resources */,
+				806B74633524FD401A196FC8 /* [CP] Embed Pods Frameworks */,
+				5D38305C5905BA68618ED636 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FinalProjectGogriEkta;
+			productName = FinalProjectGogriEkta;
+			productReference = 74AD7F58245D05FF00B856F1 /* materealize.app */;
+			productType = "com.apple.product-type.application";
+		};
+		74AD7F6D245D060100B856F1 /* FinalProjectGogriEktaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74AD7F85245D060100B856F1 /* Build configuration list for PBXNativeTarget "FinalProjectGogriEktaTests" */;
+			buildPhases = (
+				2193CD694C05ACC4E52ECE0E /* [CP] Check Pods Manifest.lock */,
+				74AD7F6A245D060100B856F1 /* Sources */,
+				74AD7F6B245D060100B856F1 /* Frameworks */,
+				74AD7F6C245D060100B856F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74AD7F70245D060100B856F1 /* PBXTargetDependency */,
+			);
+			name = FinalProjectGogriEktaTests;
+			productName = FinalProjectGogriEktaTests;
+			productReference = 74AD7F6E245D060100B856F1 /* FinalProjectGogriEktaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		74AD7F78245D060100B856F1 /* FinalProjectGogriEktaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74AD7F88245D060100B856F1 /* Build configuration list for PBXNativeTarget "FinalProjectGogriEktaUITests" */;
+			buildPhases = (
+				D770694105E0DFED46054319 /* [CP] Check Pods Manifest.lock */,
+				74AD7F75245D060100B856F1 /* Sources */,
+				74AD7F76245D060100B856F1 /* Frameworks */,
+				74AD7F77245D060100B856F1 /* Resources */,
+				7AF6757B32F7D742D47F4A6A /* [CP] Embed Pods Frameworks */,
+				C8A71CF8B3D7CBCED29A89AA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74AD7F7B245D060100B856F1 /* PBXTargetDependency */,
+			);
+			name = FinalProjectGogriEktaUITests;
+			productName = FinalProjectGogriEktaUITests;
+			productReference = 74AD7F79245D060100B856F1 /* FinalProjectGogriEktaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74AD7F50245D05FF00B856F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Ekta Gogri";
+				TargetAttributes = {
+					74AD7F57245D05FF00B856F1 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					74AD7F6D245D060100B856F1 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 74AD7F57245D05FF00B856F1;
+					};
+					74AD7F78245D060100B856F1 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 74AD7F57245D05FF00B856F1;
+					};
+				};
+			};
+			buildConfigurationList = 74AD7F53245D05FF00B856F1 /* Build configuration list for PBXProject "FinalProjectGogriEkta" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 74AD7F4F245D05FF00B856F1;
+			productRefGroup = 74AD7F59245D05FF00B856F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74AD7F57245D05FF00B856F1 /* FinalProjectGogriEkta */,
+				74AD7F6D245D060100B856F1 /* FinalProjectGogriEktaTests */,
+				74AD7F78245D060100B856F1 /* FinalProjectGogriEktaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74AD7F56245D05FF00B856F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74AD7F5E245D05FF00B856F1 /* art.scnassets in Resources */,
+				74AD7F68245D060100B856F1 /* LaunchScreen.storyboard in Resources */,
+				74AD7F65245D060100B856F1 /* Assets.xcassets in Resources */,
+				74AD7F63245D05FF00B856F1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74AD7F6C245D060100B856F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74AD7F77245D060100B856F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2193CD694C05ACC4E52ECE0E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FinalProjectGogriEktaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D38305C5905BA68618ED636 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FinalProjectGogriEkta/Pods-FinalProjectGogriEkta-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FinalProjectGogriEkta/Pods-FinalProjectGogriEkta-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FinalProjectGogriEkta/Pods-FinalProjectGogriEkta-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7AF6757B32F7D742D47F4A6A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FinalProjectGogriEkta-FinalProjectGogriEktaUITests/Pods-FinalProjectGogriEkta-FinalProjectGogriEktaUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FinalProjectGogriEkta-FinalProjectGogriEktaUITests/Pods-FinalProjectGogriEkta-FinalProjectGogriEktaUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FinalProjectGogriEkta-FinalProjectGogriEktaUITests/Pods-FinalProjectGogriEkta-FinalProjectGogriEktaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		806B74633524FD401A196FC8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FinalProjectGogriEkta/Pods-FinalProjectGogriEkta-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FinalProjectGogriEkta/Pods-FinalProjectGogriEkta-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FinalProjectGogriEkta/Pods-FinalProjectGogriEkta-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8A71CF8B3D7CBCED29A89AA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FinalProjectGogriEkta-FinalProjectGogriEktaUITests/Pods-FinalProjectGogriEkta-FinalProjectGogriEktaUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FinalProjectGogriEkta-FinalProjectGogriEktaUITests/Pods-FinalProjectGogriEkta-FinalProjectGogriEktaUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FinalProjectGogriEkta-FinalProjectGogriEktaUITests/Pods-FinalProjectGogriEkta-FinalProjectGogriEktaUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D770694105E0DFED46054319 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FinalProjectGogriEkta-FinalProjectGogriEktaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4D160683205227979BC4D16 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FinalProjectGogriEkta-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74AD7F54245D05FF00B856F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74465DFA24627D0F00DED420 /* DoneViewController.swift in Sources */,
+				748A675C245D7303007BE984 /* SaveSocialCardViewController.swift in Sources */,
+				74D7AA51245D8C510065B61D /* SaveBusinessCardViewController.swift in Sources */,
+				74846AA6245D486500F3B53B /* BusinessCardsModel.swift in Sources */,
+				74AD7F8F245D085200B856F1 /* CardGeneratorViewController.swift in Sources */,
+				74F624E7246344D900F44975 /* twilioService.swift in Sources */,
+				74AD7F60245D05FF00B856F1 /* ViewController.swift in Sources */,
+				74583AA92462A92F00B2AB67 /* BusinessScanViewController.swift in Sources */,
+				74AD7F93245D0B2200B856F1 /* SocialCardInfo.swift in Sources */,
+				74AD7F5C245D05FF00B856F1 /* AppDelegate.swift in Sources */,
+				74846AA4245D40F800F3B53B /* SocialCardsModel.swift in Sources */,
+				74C9D2BD245F3CFD004CCB4C /* BusinessCardAR.swift in Sources */,
+				74846AAA245D5A5800F3B53B /* CreateBusinessCardViewController.swift in Sources */,
+				7463F197245FEC74008662F5 /* WebsiteViewController.swift in Sources */,
+				741902382462AF5600E531FF /* SocialScanViewController.swift in Sources */,
+				74AD7F95245D16D500B856F1 /* BusinessCardInfo.swift in Sources */,
+				74583AA72462A11500B2AB67 /* SocialCardAR.swift in Sources */,
+				74846AA8245D58B600F3B53B /* CreateSocialCardViewController.swift in Sources */,
+				746E7ABA2463900A00372CA6 /* SavedTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74AD7F6A245D060100B856F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74AD7F73245D060100B856F1 /* FinalProjectGogriEktaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74AD7F75245D060100B856F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74AD7F7E245D060100B856F1 /* FinalProjectGogriEktaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		74AD7F70245D060100B856F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74AD7F57245D05FF00B856F1 /* FinalProjectGogriEkta */;
+			targetProxy = 74AD7F6F245D060100B856F1 /* PBXContainerItemProxy */;
+		};
+		74AD7F7B245D060100B856F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74AD7F57245D05FF00B856F1 /* FinalProjectGogriEkta */;
+			targetProxy = 74AD7F7A245D060100B856F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		74AD7F61245D05FF00B856F1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74AD7F62245D05FF00B856F1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		74AD7F66245D060100B856F1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74AD7F67245D060100B856F1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		74AD7F80245D060100B856F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		74AD7F81245D060100B856F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		74AD7F83245D060100B856F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23C7693D10ED0898C4B845FB /* Pods-FinalProjectGogriEkta.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H5N37532B9;
+				INFOPLIST_FILE = FinalProjectGogriEkta/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.egogri.FinalProjectGogriEkta;
+				PRODUCT_NAME = materealize;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		74AD7F84245D060100B856F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3F5C8817866212842EABBC3 /* Pods-FinalProjectGogriEkta.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H5N37532B9;
+				INFOPLIST_FILE = FinalProjectGogriEkta/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.egogri.FinalProjectGogriEkta;
+				PRODUCT_NAME = materealize;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		74AD7F86245D060100B856F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC7A28DDEFAFEC89D2AC52D8 /* Pods-FinalProjectGogriEktaTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H5N37532B9;
+				INFOPLIST_FILE = FinalProjectGogriEktaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.egogri.FinalProjectGogriEktaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FinalProjectGogriEkta.app/FinalProjectGogriEkta";
+			};
+			name = Debug;
+		};
+		74AD7F87245D060100B856F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61F6CA94BF87588D45F55F13 /* Pods-FinalProjectGogriEktaTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H5N37532B9;
+				INFOPLIST_FILE = FinalProjectGogriEktaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.egogri.FinalProjectGogriEktaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FinalProjectGogriEkta.app/FinalProjectGogriEkta";
+			};
+			name = Release;
+		};
+		74AD7F89245D060100B856F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DF49C4C05313088499AA650 /* Pods-FinalProjectGogriEkta-FinalProjectGogriEktaUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H5N37532B9;
+				INFOPLIST_FILE = FinalProjectGogriEktaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.egogri.FinalProjectGogriEktaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FinalProjectGogriEkta;
+			};
+			name = Debug;
+		};
+		74AD7F8A245D060100B856F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA42D2402495B65DBD5B7385 /* Pods-FinalProjectGogriEkta-FinalProjectGogriEktaUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H5N37532B9;
+				INFOPLIST_FILE = FinalProjectGogriEktaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.egogri.FinalProjectGogriEktaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FinalProjectGogriEkta;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74AD7F53245D05FF00B856F1 /* Build configuration list for PBXProject "FinalProjectGogriEkta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74AD7F80245D060100B856F1 /* Debug */,
+				74AD7F81245D060100B856F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74AD7F82245D060100B856F1 /* Build configuration list for PBXNativeTarget "FinalProjectGogriEkta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74AD7F83245D060100B856F1 /* Debug */,
+				74AD7F84245D060100B856F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74AD7F85245D060100B856F1 /* Build configuration list for PBXNativeTarget "FinalProjectGogriEktaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74AD7F86245D060100B856F1 /* Debug */,
+				74AD7F87245D060100B856F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74AD7F88245D060100B856F1 /* Build configuration list for PBXNativeTarget "FinalProjectGogriEktaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74AD7F89245D060100B856F1 /* Debug */,
+				74AD7F8A245D060100B856F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 74AD7F50245D05FF00B856F1 /* Project object */;
+}
